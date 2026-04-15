@@ -67,3 +67,9 @@ static_build1/
 # 不需要workflows目录
 .github/workflows/
 index.html
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
